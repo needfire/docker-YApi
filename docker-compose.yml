@@ -12,7 +12,7 @@ services:
       - yapi-mongo
     restart: unless-stopped
   yapi-mongo:
-    image: mongo:latest
+    image: mongo:3.4-xenial
     container_name: yapi-mongo
     volumes:
       - ./data/db:/data/db
