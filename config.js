@@ -1,6 +1,6 @@
 module.exports = {
   // 管理员账号，管理员默认密码是 ymfe.org，不可配置，请安装完成后自行登录修改
-  adminAccount: 'admin@hello.yapi',
+  adminAccount: 'guofeng.liu@majorbio.com',
 
   // MongoDB 数据库配置
   db: {
@@ -25,7 +25,7 @@ module.exports = {
   },
 
   // 是否禁止注册
-  closeRegister: true,
+  closeRegister: false,
 
   // 需安装的插件列表
   plugins: [
